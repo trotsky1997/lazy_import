@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as infile:
+with open('README.rst'，encoding='utf-8') as infile:
     readme = infile.read()
 
 with open('lazy_import/VERSION') as infile:
